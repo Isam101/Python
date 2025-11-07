@@ -1,0 +1,7 @@
+
+print("Hello my name is ISAM ")  // My first Python code just printing my name on the terminal
+
+printf("*\n" *10)  // My second code where we are printing * ten times and moving to the next line everytime * is printerd
+*
+* 
+... and so on
