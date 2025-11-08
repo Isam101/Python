@@ -14,7 +14,10 @@ print(len(what_am_Iprinting))
 # Printing the first character of the string
 print(what_am_Iprinting[0])
 
-#Printing the last character of the string
-print(what_am_Iprinting[-1]
+# Printing the last character of the string
+print(what_am_Iprinting[-1])
 or 
-print(what_am_Iprinting[13])
+print(what_am_Iprinting[12])
+
+# Printing a specific sequence of string
+print(what_am_Iprinting[0:3] # The code basically means to print the first three characters of the variable what_am_Iprinting 0:3 ( 0 to 3)
