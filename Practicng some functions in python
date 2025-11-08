@@ -1,0 +1,15 @@
+# Storing a string inside a variable
+what_am_Iprinting = "I am so coool"
+
+# Printing a message
+print("Whyyyyy      ")
+
+# Integer variables
+x = 3
+students_count = 1000
+
+# Printing the length of the string
+print(len(what_am_Iprinting))
+
+# Printing the first character of the string
+print(what_am_Iprinting[0])
