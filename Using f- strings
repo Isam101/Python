@@ -1,0 +1,10 @@
+First_name = "ISAM ELDIN"
+Last_name = "Ibrahim"
+
+# Method 1: Using + to join strings
+Full_name = First_name + " " + Last_name
+print(Full_name)
+
+# Method 2: Using f-strings (cleaner and recommended)
+Full_name_other_method = f"{First_name} {Last_name}"
+print(Full_name_other_method)
