@@ -1,0 +1,9 @@
+# Store first and last name
+first_name = "ISAM ELDIN"
+last_name = "Ibrahim"
+
+# Combine both with a space in between
+full_name = first_name + " " + last_name
+
+# Print full name
+print(full_name)
