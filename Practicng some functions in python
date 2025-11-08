@@ -13,3 +13,8 @@ print(len(what_am_Iprinting))
 
 # Printing the first character of the string
 print(what_am_Iprinting[0])
+
+#Printing the last character of the string
+print(what_am_Iprinting[-1]
+or 
+print(what_am_Iprinting[13])
