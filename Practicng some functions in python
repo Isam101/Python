@@ -21,3 +21,5 @@ print(what_am_Iprinting[12])
 
 # Printing a specific sequence of string
 print(what_am_Iprinting[0:3] # The code basically means to print the first three characters of the variable what_am_Iprinting 0:3 ( 0 to 3)
+
+print(what_am_Iprinting[0:]) # Its equivalent to print(what_am_Iprinting)
