@@ -1,0 +1,21 @@
+#A string is a sequence of characters used to represent textual data
+LAST_NAME = "Ibrahim"
+print(f" My family name is {LAST_NAME}")
+
+Food = "Pizza"
+
+print(f"Your favourite food is {Food}")
+#numeric data type representing whole numbers
+age =25 
+print(f"You are {age}")
+
+#A "float," or floating-point number, refers to a data type used in computing to represent real numbers, including those with fractional or decimal parts. 
+MY_GPA = 3.5
+print(f"Your GPA is insane I am not gonna lie at {MY_GPA}")
+
+#Boolean (TRUE OR FALSE)
+ARE_YOU_MISSING_CLASSES = False
+
+print(f" Are you missing classes {ARE_YOU_MISSING_CLASSES}")
+
+
