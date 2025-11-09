@@ -1,0 +1,12 @@
+First_name = "ISAM ELDIN" 
+Last_name = "Ibrahim"
+
+# Basically changes strings to all upper case
+
+print(Last_name.upper())
+
+# Basically changes strings to all lower case
+
+print(Last_name.lower())
+
+#It doesn't afffect the original variable when those actions are performed.
