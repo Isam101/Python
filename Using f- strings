@@ -8,3 +8,12 @@ print(Full_name)
 # Method 2: Using f-strings (cleaner and recommended)
 Full_name_other_method = f"{First_name} {Last_name}"
 print(Full_name_other_method)
+
+
+# Just the use of f-string practice
+LAST_NAME = "Ibrahim"
+print(f" My family name is {LAST_NAME}")
+
+Food = "Pizza"
+
+print(f"Your favourite food is {Food}")
