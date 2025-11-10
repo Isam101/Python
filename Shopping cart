@@ -1,0 +1,17 @@
+# Exercise 2 - Shopping cart program
+
+# Prompt the user to enter the item they want to buy
+Item = input("what are you getting today: ")
+
+# Ask for the price of the item and convert it to a float 
+# since price can include decimal values
+Price = float(input(f"The Price of the item {Item} is: "))
+
+# Ask for the quantity and convert it to float 
+Quantity = int(input(f"How many of {Item} are you getting today:  "))
+
+# Calculate the total cost by multiplying price and quantity
+Total = Quantity * Price 
+
+# Display the total cost to the user
+print (f"The total today is {Total}")
