@@ -1,0 +1,39 @@
+#Typecasting is the process of converting a variable from one data type to another str(),int(), float(),bool()
+
+name = "Isam Eldin"
+age =27
+GPA = 3.5
+is_student = True
+
+#Get the data type
+type(name) #type function allows us to see the data type once we use it with print function 
+print(type(name)) # In this case we have a data type of string thus <class 'str'> is printed
+print(type(age)) # In this case we have a data type of string thus <class 'int'> is printed
+print(type(GPA)) # In this case we have a data type of string thus <class 'float'> is printed
+print(type(is_student)) # In this case we have a data type of string thus <class 'bool'> is printed
+
+
+#Typecasting 
+GPA_2 = int(GPA)
+print(f"The new GPA is {GPA_2}") # Original GPA is 3.5 in float but in int its 3
+
+AGE_2 = float(age)
+print(f"What is your age again {AGE_2}") #Original age is 27 but then when we change the data type to float it becomes 27.0 
+
+age = str(age)
+print(f"My age in string is {age}")
+#To prove that age has been changed from int to string we can use type and print again 
+print(type(age)) # And the class has been changed to <class 'str'>
+
+# For bool we can use it to check if someone has entered there name or not 
+name = bool(name)
+print(f"Have you entered a name {name}")
+
+# It showed true on the first test as there is a name typed on the variable now lets change that 
+name =""
+name = bool(name) 
+print(f"Have you entered a name {name}") # Now you can see that the result is changed to false as there is no string originally entered 
+
+
+
+
