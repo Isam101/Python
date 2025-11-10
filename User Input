@@ -1,0 +1,30 @@
+#Input() = A function that prompts the user to enter data, Returns the entered data as a string 
+# User Inputs their name and age after being prompted to do so 
+name = input("Please enter your name: ") 
+age = input("what is your age as well: ")
+
+
+print(f"Is your name {name} ")
+print(f"Are you of age {age} ")
+# The data type entered is in string 
+print(type(age))
+
+#print(age+1)# we will get an error as we can not conatenate str with an integer
+
+# Checked the data type of age and switched it to int 
+age = int(age) 
+print(type(age))
+age+1
+print(f"{age+1}") # Now it works as we have switched the data type to int and concatenated ints 
+
+# We can also type cast the input so we don't have to do it later example
+
+AGE = int(input("What is your age again: " ) )  # 
+
+
+print (type(AGE))#The result is <class 'int'>
+print(f"what is your age after your birthday: {AGE+1}") # Thus we can so arithmetic
+
+
+
+   
