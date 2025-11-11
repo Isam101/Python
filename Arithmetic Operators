@@ -1,0 +1,30 @@
+# Demonstrating Arithmetic Operators in Python
+
+# Addition (+)
+a = 10
+b = 5
+print(f"{a} + {b} = {a + b}")     # 10 + 5 = 15
+
+# Subtraction (-)
+print(f"{a} - {b} = {a - b}")     # 10 - 5 = 5
+
+# Multiplication (*)
+print(f"{a} * {b} = {a * b}")     # 10 * 5 = 50
+
+# Division (/) - always gives a float result
+print(f"{a} / {b} = {a / b}")     # 10 / 5 = 2.0
+
+# Floor Division (//) - removes decimals and returns whole number
+c = 11
+print(f"{c} // {b} = {c // b}")   # 11 // 5 = 2
+
+# Modulus (%) - gives the remainder
+print(f"{c} % {b} = {c % b}")     # 11 % 5 = 1
+
+# Exponent (**)
+print(f"{b} ** 2 = {b ** 2}")     # 5 ** 2 = 25
+print(f"{2} ** 5 = {2 ** 5}")     # 2 ** 5 = 32
+
+# Combining operators
+result = (a + b) * 2
+print(f"({a} + {b}) * 2 = {result}")  # (10 + 5) * 2 = 30
