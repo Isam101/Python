@@ -1,16 +1,15 @@
-#Madlibs game
-# Word game by filling in the blanks with random words we can create a story 
+# Mad Libs Game
+# A fun word game where the user fills in the blanks to complete a story
 
+# Asking user to input different types of words
+adjective1 = input("Enter an adjective (description of something): ")
+noun1 = input("Enter a noun (person, place, thing): ")
+adjective2 = input("Enter another adjective: ")
+verb = input("Enter a verb ending with 'ing' (an action): ")
+adjective3 = input("Enter one more adjective: ")
 
-adjective1 = input (" Enter an adjective (description of something): ") 
-noun1 = input ("Enter a  noun ( person, place, thing): " ) 
-adjective2 = input (" Enter an adjective (description of something): ") 
-verb = input (" Enter a verb ending with 'ing' ( an action)")
-
-print(f" Today I went to {adjective1} zoo.")
-print(f" In a exhibit, I saw a {noun1}")
-print(f" {noun1} was {adjective2} and {verb1} " )
-
-print(f" I was {adjective3}")
-
-
+# Printing the completed story using f-strings
+print(f"Today I went to the {adjective1} zoo.")
+print(f"In an exhibit, I saw a {noun1}.")
+print(f"The {noun1} was {adjective2} and {verb}.")
+print(f"I was very {adjective3}!")
