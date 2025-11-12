@@ -1,0 +1,15 @@
+# IF STATEMENTS
+# An if statement allows the program to perform certain actions if a condition is true,
+# and perform different actions if it is false (using else).
+
+# Ask the user for their age and convert it to an integer
+age = int(input("What is your age: "))
+
+# Check if the user is under 18
+if age < 18:
+    # Condition is TRUE if the user's age is less than 18
+    print("You are not old enough to get a credit card. Try again next year.")
+
+# If the above condition is FALSE (age is 18 or older), this code runs instead
+else:
+    print("You are eligible to get a credit card! Congratulations, follow the next steps.")
