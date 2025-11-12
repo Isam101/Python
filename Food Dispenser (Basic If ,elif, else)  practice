@@ -1,0 +1,18 @@
+# IF STATEMENTS
+# Example: Food Dispensing System
+# The program checks user input and performs actions based on their response.
+
+# Ask the user if they would like food
+Food = input("Would you like some food? (Y for Yes and N for No): ")
+
+# If the user enters 'Y', prepare the food
+if Food == "Y":
+    print("Your food is ready for pickup at Station One.")
+
+# If the user enters 'N', skip food preparation
+elif Food == "N":
+    print("You have chosen not to get food. Please proceed to the exit.")
+
+# If the user enters anything else, show an error message
+else:
+    print("Invalid entry. Please type 'Y' for Yes or 'N' for No.")
