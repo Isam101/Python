@@ -1,0 +1,14 @@
+# IF STATEMENTS
+# Example: Data Collection (Name Validation)
+# This program checks whether the user entered their name and responds accordingly.
+
+# Prompt the user to enter their name
+name = input("Please enter your name: ")
+
+# If the input is empty, notify the user
+if name == "":
+    print("You have not entered your name.")
+
+# Otherwise, display the name entered
+else:
+    print(f"Your name is {name}.")
