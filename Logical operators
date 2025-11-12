@@ -1,0 +1,25 @@
+# LOGICAL OPERATORS
+# Logical operators are used to evaluate multiple conditions:
+#   or  → at least one condition must be true
+#   and → both conditions must be true
+#   not → reverses (negates) a condition
+
+# Example scenario: Checking weather conditions
+temp = 25
+Is_Raining = False
+
+# "and" means both conditions must be True
+if temp <= 25 and Is_Raining:
+    print("The temperature is 25 degrees or less AND it is raining.")
+
+# "or" means at least one condition must be True
+elif temp > 25 or Is_Raining:
+    print("It is either hot OR raining (or both).")
+
+# "not" inverts a condition
+elif not temp == 24:
+    print("The temperature is NOT 24 degrees.")
+
+# If none of the conditions are True, this block runs
+else:
+    print("The temperature is 24 degrees and it is not raining.")
