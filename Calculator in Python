@@ -1,0 +1,33 @@
+# IF STATEMENTS
+# Example: Simple Python Calculator
+# This program performs basic arithmetic operations based on user input.
+
+# Ask the user to select a mathematical operator
+operator = input("Enter an operator (*, /, -, +): ")
+
+# Ask the user to input two numbers and convert them to float for decimal support
+number1 = float(input("Please enter the first number: "))
+number2 = float(input("Please enter the second number: "))
+
+# Perform multiplication
+if operator == "*":
+    print(f"The result of multiplication: {number1 * number2}")
+
+# Perform division (includes a check to avoid dividing by zero)
+elif operator == "/":
+    if number2 == 0:
+        print("Error: Division by zero is not allowed.")
+    else:
+        print(f"The result of division: {number1 / number2}")
+
+# Perform addition
+elif operator == "+":
+    print(f"The result of addition: {number1 + number2}")
+
+# Perform subtraction
+elif operator == "-":
+    print(f"The result of subtraction: {number1 - number2}")
+
+# Handle invalid operators
+else:
+    print("Invalid operator! Please enter one of: *, /, +, -")
