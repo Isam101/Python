@@ -1,0 +1,29 @@
+# MATH VARIABLES
+# Demonstrating Python's built-in math functions and numeric operations
+
+# Assigning a floating-point number to variable x
+x = 3.14 
+
+# The round() function rounds a number to the nearest whole number
+result = round(x)
+print(result)  # Output: 3
+
+# The abs() function returns the absolute value (distance from zero)
+# In this case, since y = -6, the absolute value is 6
+y = -6 
+result_2 = abs(y)
+print(result_2)  # Output: 6
+
+# The pow() function calculates the power of a number
+# pow(base, exponent) is equivalent to base ** exponent
+z = 4.44
+result_3 = pow(4.44, 2)
+print(result_3)  # Output: 19.7136
+
+# The max() function returns the largest value from a group of numbers
+result_4 = max(x, y, z)
+print(result_4)  # Output: 4.44
+
+# The min() function returns the smallest value from a group of numbers
+result_5 = min(x, y, z)
+print(result_5)  # Output: -6
