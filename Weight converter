@@ -1,0 +1,22 @@
+# IF STATEMENTS
+# Example: Weight Converter
+# This program converts weight between kilograms and pounds based on user input.
+
+# Ask the user to choose a conversion direction
+Pound_or_Kg = input("Enter the conversion type: 'K' for Pound → Kilogram or 'P' for Kilogram → Pound: ")
+
+# If the user chooses to convert from Kilograms to Pounds
+if Pound_or_Kg == "P":
+    Weight = float(input("Please enter your weight in Kilograms (Kg): "))
+    Weight = Weight * 2.2  # 1 kg = 2.2 pounds
+    print(f"Your weight in Pounds is: {round(Weight, 2)} lb")
+
+# If the user chooses to convert from Pounds to Kilograms
+elif Pound_or_Kg == "K":
+    Weight = float(input("Please enter your weight in Pounds (lb): "))
+    Weight = Weight / 2.2  # 1 pound = 0.454 kg
+    print(f"Your weight in Kilograms is: {round(Weight, 2)} Kg")
+
+# If the user enters something else
+else:
+    print("Invalid entry! Please enter 'K' or 'P'.")
