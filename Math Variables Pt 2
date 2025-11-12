@@ -1,0 +1,22 @@
+# MATH VARIABLES
+# Demonstrating the use of Python's built-in math module for common mathematical constants and functions
+
+import math  # Importing the math library to access advanced math operations
+
+# math.pi gives the constant value of π (pi)
+print(math.pi)  # Output: 3.141592653589793
+
+# math.e gives the constant value of Euler's number (e)
+print(math.e)  # Output: 2.718281828459045
+
+# math.sqrt(x) returns the square root of a number
+result = math.sqrt(4)
+print(result)  # Output: 2.0
+
+# math.floor(x) rounds a number down to the nearest whole integer
+result_2 = math.floor(4.6)
+print(result_2)  # Output: 4
+
+# math.ceil(x) rounds a number up to the nearest whole integer
+result_3 = math.ceil(4.4)
+print(result_3)  # Output: 5
