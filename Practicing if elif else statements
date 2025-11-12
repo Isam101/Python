@@ -1,0 +1,17 @@
+# IF STATEMENTS
+# If statements let the program decide which block of code to run based on certain conditions.
+
+# Ask the user for their age and convert the input (string) to an integer
+age = int(input("What is your age: "))
+
+# Check if the user's age is between 0 and 17 (inclusive)
+if age < 18 and age >= 0:
+    print("You are not of age to get a credit card. Try again next year.")
+
+# Check if the user entered a negative number
+elif age < 0:
+    print("You have entered a negative value for age — maybe you’re not born yet!")
+
+# If neither of the above conditions are true, the user must be 18 or older
+else:
+    print("You are eligible to get a credit card! Congratulations, follow the next steps.")
