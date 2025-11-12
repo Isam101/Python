@@ -1,0 +1,20 @@
+# Example of using the math library in Python
+
+# Formula for the circumference of a circle: C = 2 * π * r
+# Formula for the area of a circle: A = π * r²
+
+import math  # Import the math module to access constants like π and functions like pow()
+
+# Ask the user for the radius and store it as a floating-point number
+radius = float(input("Enter the radius of the circle: "))
+
+# Access the value of π (pi) from the math library
+value_pi = math.pi
+
+# Calculate the circumference using the formula C = 2 * π * r
+circumference = 2 * value_pi * radius
+print(f"The circumference of the circle is {round(circumference, 2)}")  # Rounded to 2 decimal places
+
+# Calculate the area using the formula A = π * r²
+area = value_pi * pow(radius, 2)
+print(f"The area of the circle is {round(area, 2)}")  # Rounded for neat output
