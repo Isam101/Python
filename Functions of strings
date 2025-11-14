@@ -1,0 +1,37 @@
+# DIFFERENT FUNCTIONS OF STRINGS
+# This script demonstrates common string operations in Python.
+
+# Ask the user for their name
+name = input("What is your name: ")
+
+# len() → returns the length of a string (includes spaces)
+print(f"The length of your name is: {len(name)}")
+
+# find() → finds the first occurrence (index) of a character
+result = name.find("I")
+print(f"The first occurrence of 'I' is at index: {result}")
+
+# rfind() → finds the last occurrence (from the end)
+result = name.rfind("I")
+print(f"The last occurrence of 'I' is at index: {result}")
+
+# capitalize() → capitalizes only the first letter
+print(f"Capitalized version: {name.capitalize()}")
+
+# upper() → converts all letters to uppercase
+print(f"Uppercase version: {name.upper()}")
+
+# lower() → converts all letters to lowercase
+print(f"Lowercase version: {name.lower()}")
+
+# isalpha() → checks if the string contains only alphabetic characters (no spaces or numbers)
+print(f"Contains only letters? {name.isalpha()}")
+
+# count() → counts how many times a character or substring appears in a string
+phone = "778-751-4162"
+result = phone.count("-")
+print(f"Number of dashes in phone number: {result}")
+
+# replace() → replaces part of a string with another
+new_phone = phone.replace("-", " ")
+print(f"Phone number with spaces instead of dashes: {new_phone}")
