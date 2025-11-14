@@ -1,0 +1,11 @@
+# USING INDEXING
+# This program takes a credit card number and hides all but the last four digits.
+
+# Ask the user for their credit card number
+Credit_Card_Number = input("Please enter your credit card number: ")
+
+# Extract the last four digits using negative indexing
+Last_Four_digits = Credit_Card_Number[-4:]
+
+# Display a masked version of the credit card number
+print(f"(XXXX-XXXX-XXXX-{Last_Four_digits})")
