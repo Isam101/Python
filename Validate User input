@@ -1,0 +1,24 @@
+# EXERCISE: Validate User Input
+# Rules:
+# 1) Username must be no more than 12 characters
+# 2) Username must not contain spaces
+# 3) Username must not contain digits
+
+# Ask the user for a username
+username = input("Please enter your preferred username (max 12 characters, no spaces, no digits): ")
+
+# Check if username is too long
+if len(username) > 12:  # Checks the total length of the username
+    print("You have entered more than 12 characters.")
+
+# Check if username contains spaces
+elif " " in username:  # If a space is found in the string, this condition is True
+    print("You have a space in your username.")
+
+# Check if username contains digits or non-letter characters
+elif not username.isalpha():  # isalpha() returns True only if all characters are letters
+    print("Your username contains numbers or special characters — only letters are allowed.")
+
+# If all conditions are satisfied
+else:  # Runs if none of the previous conditions are True
+    print(f"✅ Your username is valid: {username}")
