@@ -1,0 +1,10 @@
+# WHILE LOOP: Keep asking for a name until valid input is given
+
+name = input("Please enter your name: ")
+
+# Repeat as long as the name is blank
+while name == "":
+    print("You did not enter your name.")
+    name = input("Please enter your name: ")
+
+print(f"You have correctly entered your name and it is {name}.")
