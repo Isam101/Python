@@ -1,0 +1,39 @@
+#Format A format specifier controls how values are formatted when using an f-string or the .format() method.
+It lets you format:
+decimals
+currency
+percentages
+alignment
+padding
+hex/binary/octal numbers
+rounding
+#You do this by {value:format_spec}
+
+pi = 3.14159265
+
+# 1. Formatting decimals
+print(f"Pi to 2 decimals: {pi:.2f}")
+print(f"Pi to 4 decimals: {pi:.4f}")
+
+# 2. Currency formatting
+price = 1999.5
+print(f"Price formatted as currency: ${price:,.2f}")
+
+# 3. Percentage formatting
+progress = 0.8532
+print(f"Progress: {progress:.2%}")
+
+# 4. Alignment
+name = "Isam"
+print(f"Left aligned:  '{name:<10}'")
+print(f"Right aligned: '{name:>10}'")
+print(f"Centered:      '{name:^10}'")
+
+# 5. Zero padding
+num = 42
+print(f"Zero padded: {num:05}")
+
+# 6. Binary, Hex, Octal
+print(f"Binary: {num:b}")
+print(f"Hex: {num:x}")
+print(f"Octal: {num:o}")
