@@ -1,0 +1,9 @@
+# CONDITIONAL EXPRESSION (TERNARY OPERATOR)
+# A one-line shortcut for writing an if–else statement.
+# Syntax: value_if_true if condition else value_if_false
+
+# Example: Check if a number is even or odd
+num = 6
+
+# If num is divisible by 2, print "Even", otherwise print "Odd"
+print("Even" if num % 2 == 0 else "Odd")
