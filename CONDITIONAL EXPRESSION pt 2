@@ -1,0 +1,13 @@
+# CONDITIONAL EXPRESSION (TERNARY OPERATOR)
+# A one-line shortcut for writing an if–else statement.
+# Syntax: value_if_true if condition else value_if_false
+
+# Example: Find the maximum of two numbers
+a = 2
+b = 3
+
+# Assign the larger number to 'maximum'
+maximum = a if a > b else b
+
+# Display the result
+print(f"The bigger number is {maximum}")
