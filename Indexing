@@ -1,0 +1,18 @@
+# INDEXING
+# Accessing specific elements of a sequence (like a string) using [start:end:step]
+
+# Example string
+Username = "34343-23333-2333"
+
+# Access the first character (index 0)
+print(Username[0])  # Output: '3'
+
+# Slicing example [start:end:step]
+# This takes characters from index 0 up to (but not including) index 5, stepping by 2
+print(Username[0:5:2])  # Output: '343'
+
+# Explanation:
+# [start:end:step]
+# start → where the slice begins (index 0)
+# end → where the slice stops (index 5, but not including 5)
+# step → how many characters to skip between each index
