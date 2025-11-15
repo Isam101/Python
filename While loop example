@@ -1,0 +1,13 @@
+# WHILE LOOP
+# A while loop repeats code as long as a condition remains True.
+
+# Ask the user to enter their age
+age = int(input("Please enter your age: "))
+
+# Keep asking until the user enters a non-negative age
+while age < 0:
+    print("You have entered a negative age.")
+    age = int(input("Please enter your age again: "))
+
+# Once the input is valid, show confirmation
+print(f"You have entered a valid age. Your age is: {age}")
