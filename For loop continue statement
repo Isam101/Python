@@ -1,0 +1,11 @@
+# FOR LOOP WITH CONTINUE STATEMENT
+# The 'continue' keyword skips the current iteration and moves to the next one.
+
+for x in range(1, 21):
+    # Skip the number 13
+    if x == 13:
+        continue
+    else:
+        print(x)
+
+# Basically what happens is that code starts to be excuted then when x is thirteen the code doesn't go to else statement where the print command is being performed.
