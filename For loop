@@ -1,0 +1,10 @@
+# FOR LOOPS
+# A for loop executes a block of code a fixed number of times.
+# You can iterate over ranges, strings, lists, and other sequences.
+
+# Countdown from 10 to 1 using reversed() and range()
+for x in reversed(range(1, 11)):
+    print(x)
+
+# Final message after the loop finishes
+print("Happy New Year!!!!")
