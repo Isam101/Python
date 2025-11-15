@@ -1,0 +1,13 @@
+# WHILE LOOP WITH SENTINEL VALUE
+# This loop continues to run until the user enters 'q' to quit.
+
+# Ask the user for their favorite food
+food = input("Please enter a food you like (enter 'q' to quit): ")
+
+# Repeat as long as the user does NOT enter 'q'
+while food != "q":
+    print(f"You like {food}")
+    food = input("Please enter another food you like (enter 'q' to quit): ")
+
+# Once the user enters 'q', the loop ends
+print("You have quit the program.")
