@@ -1,0 +1,17 @@
+# FOR LOOPS + TIME FORMAT (HH:MM:SS)
+# Counts up in real time and displays formatted time.
+
+import time
+
+your_time_is_up = int(input("Please enter the time in seconds: "))
+
+for x in range(1, your_time_is_up + 1):
+
+    hours = x // 3600
+    minutes = (x % 3600) // 60
+    seconds = x % 60
+
+    print(f"{hours:02}:{minutes:02}:{seconds:02}")
+    time.sleep(1)
+
+print("Time's Up!")
