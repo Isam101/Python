@@ -1,0 +1,14 @@
+# collection = single "variable" used to store multiple values
+
+# List: ordered & changeable, duplicates OK
+fruits_list = ["apple", "orange", "banana", "orange"]
+
+# Set: unordered & unique, no duplicates
+fruits_set = {"apple", "orange", "banana", "orange"}  # "orange" appears once
+
+# Tuple: ordered & unchangeable, duplicates OK
+fruits_tuple = ("apple", "orange", "banana", "orange")
+
+print("List:", fruits_list)
+print("Set:", fruits_set)
+print("Tuple:", fruits_tuple)
