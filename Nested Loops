@@ -1,0 +1,16 @@
+# Nested loops = a loop inside another loop (outer loop + inner loop)
+
+# Ask the user how many rows and columns they want
+rows = int(input("Enter the number of rows: "))
+columns = int(input("Enter the number of columns: "))
+symbol = input("Enter a symbol: ")
+
+# Outer loop controls the number of rows
+for y in range(rows):
+
+    # Inner loop controls how many symbols are printed per row
+    for x in range(columns):
+        print(symbol, end="")   # end="" prevents a new line after each symbol
+    
+    # After printing one full row, print a new line
+    print()
