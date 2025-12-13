@@ -28,3 +28,4 @@ print(f"{2} ** 5 = {2 ** 5}")     # 2 ** 5 = 32
 # Combining operators
 result = (a + b) * 2
 print(f"({a} + {b}) * 2 = {result}")  # (10 + 5) * 2 = 30
+ n
