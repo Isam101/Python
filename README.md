@@ -4,7 +4,7 @@ Learning Python from scratch and documenting my progress through simple scripts,
 This repo tracks my growth from basic syntax to real problem-solving.
 All code is beginner-friendly, well-commented, and continuously improving as I build a strong foundation for engineering and future AI work.
 
-✅ Why Python?
+✅ Why Python???
 
 1) Python solves complex problems with clean, minimal code
 
